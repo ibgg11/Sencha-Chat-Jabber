@@ -96,7 +96,7 @@ App.View.Config = Ext.extend(Ext.form.FormPanel, {
 
 	facebookConnect: function(e){
 			
- location.href="https://graph.facebook.com/oauth/authorize?client_id=185799971471968&redirect_uri=http://www.afrogjumps.com/xmpp/facebook/&scope=email,offline_access,publish_stream&display=popup&response_type=token";
+ location.href="https://graph.facebook.com/oauth/authorize?client_id=185799971471968&redirect_uri=http://www.afrogjumps.com/xmpp/facebook/&scope=email,offline_access,publish_stream&display=popup&response_type=token&display=touch";
 	},
 
 	getFacebookStatus: function(){
